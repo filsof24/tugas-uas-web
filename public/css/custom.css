@@ -1,0 +1,25 @@
+#wrapper {
+    min-height: 100vh;
+}
+
+#sidebar {
+    width: 260px;
+    min-height: 100vh;
+    transition: all 0.3s;
+}
+
+#page-content-wrapper {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.container-fluid {
+    flex-grow: 1;
+}
+
+/* Custom Table style */
+.table th {
+    background-color: #f8f9fa;
+    font-weight: 600;
+}
